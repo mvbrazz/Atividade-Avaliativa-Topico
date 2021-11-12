@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1636680441772" clover="3.2.0">
-  <project timestamp="1636680441772" name="All files">
-    <metrics statements="17" coveredstatements="17" conditionals="18" coveredconditionals="15" methods="3" coveredmethods="3" elements="38" coveredelements="35" complexity="0" loc="17" ncloc="17" packages="1" files="1" classes="1"/>
+<coverage generated="1636680552929" clover="3.2.0">
+  <project timestamp="1636680552929" name="All files">
+    <metrics statements="18" coveredstatements="18" conditionals="18" coveredconditionals="15" methods="3" coveredmethods="3" elements="39" coveredelements="36" complexity="0" loc="18" ncloc="18" packages="1" files="1" classes="1"/>
     <file name="Prova.js" path="C:\Users\mvbra\Desktop\Prova\lib\Prova.js">
-      <metrics statements="17" coveredstatements="17" conditionals="18" coveredconditionals="15" methods="3" coveredmethods="3"/>
+      <metrics statements="18" coveredstatements="18" conditionals="18" coveredconditionals="15" methods="3" coveredmethods="3"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="5" type="cond" truecount="2" falsecount="0"/>
       <line num="3" count="3" type="stmt"/>
@@ -14,6 +14,7 @@
       <line num="14" count="2" type="cond" truecount="2" falsecount="0"/>
       <line num="15" count="1" type="stmt"/>
       <line num="20" count="3" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
       <line num="27" count="5" type="stmt"/>
       <line num="29" count="5" type="cond" truecount="4" falsecount="0"/>
       <line num="31" count="1" type="cond" truecount="1" falsecount="1"/>
