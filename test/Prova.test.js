@@ -1,4 +1,4 @@
-
+const {FiltroMaior2000} = require('../lib/Prova');
 describe('Atividade Avaliativa',()=>{
     test('Se o valor da fatura for menor que 2000', () => {
         
