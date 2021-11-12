@@ -1,4 +1,4 @@
-const {FiltroMaior2000,FiltroMaior2000Menor2500eDataMenor,FiltroMaior2500eMenor3000DataMenor2meses} = require('../lib/Prova');
+const {FiltroMaior2000,FiltroMaior2000Menor2500eDataMenor,FiltroMaior2500eMenor3000DataMenor2meses,FiltroMaior4000eRegiaoSul} = require('../lib/Prova');
 describe('Atividade Avaliativa',()=>{
     test('Se o valor da fatura for menor que 2000', () => {
         
@@ -59,7 +59,7 @@ describe('Atividade Avaliativa',()=>{
          expect(resposta.length).toBe(5);
      });
     test('Se o valor da fatura for maior que 4000 e pertencer a algum estado da região sul', () => {  
-            
+
         var cliente1 = {id:0,nome:"José",data_ano:2021,data_mes:10,estado:"Paraná"};
         var cliente2 = {id:1,nome:"Marcos",data_ano:2021,data_mes:11,estado:"Paraná"};
         var cliente3 = {id:2,nome:"Paulo",data_ano:2021,data_mes:9,estado:"Paraná"};
